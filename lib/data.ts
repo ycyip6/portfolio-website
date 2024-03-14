@@ -36,31 +36,34 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduate Engineer",
-    location: "Hong Kong",
-    description:
-      "Graduated from CUHK with a degree in Information Engineering.",
+    institution: "CUHK",
+    institutionLink: "https://www.cuhk.edu.hk/english/index.html",
+    description: "Graduated with a Bachelor degree in Information Engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Software Developer @ Prisec",
-    location: "Hong Kong",
+    title: "Software Developer",
+    institution: "Prisec",
+    institutionLink: "https://www.prisec.co",
     description:
       "Developed an authenticator application on top of the OIDC protocol.",
     icon: React.createElement(FaPython),
     date: "2019 - 2020",
   },
   {
-    title: "Full-Stack Developer @ SCMP",
-    location: "Hong Kong",
+    title: "Full-Stack Developer",
+    institution: "SCMP",
+    institutionLink: "https://www.scmp.com",
     description:
       "Designed and built a customized collaborative online editing system similar to Google Docs.",
     icon: React.createElement(FaVuejs),
     date: "2020 - 2022",
   },
   {
-    title: "Software Engineer @ LassoMd",
-    location: "Toronto, ON",
+    title: "Software Engineer",
+    institution: "LassoMD | Toronto",
+    institutionLink: "https://www.lassomd.com/",
     description:
       "Built a comprehensive solution from scratch to elevate dental practice’s patient acquisition and lead management",
     icon: React.createElement(FaReact),
