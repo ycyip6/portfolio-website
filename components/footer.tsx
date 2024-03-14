@@ -8,6 +8,7 @@ export default function Footer() {
         React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
         Framer Motion, React Email & Resend, Vercel hosting.
       </p>
+      <span className="text-xs">Powered by ByteGrad</span>
     </footer>
   );
 }
