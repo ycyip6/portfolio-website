@@ -1,8 +1,12 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaPython, FaReact, FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
+import etaTrackerV2Img from "@/public/eta-tracker-v2.png";
+import patientLoopImg from "@/public/patient-loop-page.svg";
+import dashBoardImg from "@/public/dashboard.png";
+import scmpImg from "@/public/scmp.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -27,81 +31,96 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduate Engineer",
+    location: "Hong Kong",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Graduated from CUHK with a degree in Information Engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Developer @ Prisec",
+    location: "Hong Kong",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Developed an authenticator application on top of the OIDC protocol.",
+    icon: React.createElement(FaPython),
+    date: "2019 - 2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack Developer @ SCMP",
+    location: "Hong Kong",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Designed and built a customized collaborative online editing system similar to Google Docs.",
+    icon: React.createElement(FaVuejs),
+    date: "2020 - 2022",
+  },
+  {
+    title: "Software Engineer @ LassoMd",
+    location: "Toronto, ON",
+    description:
+      "Built a comprehensive solution from scratch to elevate dental practice’s patient acquisition and lead management",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "ETA Tracker v2",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A simple web app for tracking the ETA of a TTC buses. Bookmarked ETA could be checked instantly without researching the stop number again.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Radix"],
+    imageUrl: etaTrackerV2Img,
+    link: "https://ttc-next-v2.vercel.app/",
   },
   {
-    title: "rmtDev",
+    title: "PatientLoop",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A lead & schedule management tools for dental practices. It helps dentists to visualize their leads and appointments, and to track their marketing efforts.",
+    tags: ["Python", "PostgreSQL", "React", "TypeScript", "Next.js", "Docker"],
+    imageUrl: patientLoopImg,
+    link: "https://www.lassomd.com/",
   },
   {
-    title: "Word Analytics",
+    title: "Compose - Rich Text Editor",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A rich text editor built from scratch, it supports various text formatting, image sourcing, and link embedding.",
+    tags: ["Vue", "Node.js", "MongoDB", "TypeScript", "RabbitMQ"],
+    imageUrl: scmpImg,
+    link: "https://www.scmp.com/sport/rugby/hk-sevens/article/3198601/hong-kong-sevens-2022-live-coverage-day-3-quarter-finals-get-under-way",
+  },
+  {
+    title: "Core Web Vitals and SEO Tracker",
+    description:
+      "An internal dashboard for tracking Core Web Vitals and SEO metrics of websites. It helps to monitor the performance of websites.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "PostgreSQL",
+      "Prisma",
+    ],
+    imageUrl: dashBoardImg,
+    link: "https://cstool.dev.lmdplatform.com/domain",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
   "TypeScript",
   "React",
+  "Vue",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Tailwind",
+  "MongoDB",
+  "PostgreSQL",
+  "Docker",
+  "GCP",
+  "Vercel",
 ] as const;
