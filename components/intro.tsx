@@ -33,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src={propic}
-              alt="Ricardo portrait"
+              alt="Angel Yip"
               width="192"
               height="192"
               quality="95"
