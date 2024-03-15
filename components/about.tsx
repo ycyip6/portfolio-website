@@ -19,20 +19,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Hello there! I'm a versatile software engineer with expertise in{" "}
+        Greetings! I'm a dynamic product and project manager known for my
+        proficiency in{" "}
         <span className="font-medium">
-          TypeScript, Node.js, Next.js, React, Vue.js, and Python
+          Product Development, Team Coordination, and Agile Methodologies
         </span>
-        . With a knack for building robust and innovative solutions, I've
-        contributed significantly to various projects across different domains.
+        . With a passion for crafting resilient and inventive solutions, I've
+        made substantial contributions to numerous projects spanning diverse
+        sectors.
       </p>
 
       <p>
-        My experience spans from developing comprehensive solutions for dental
-        practices to enhancing media platforms and crafting efficient web
-        crawlers. I excel in designing and implementing backend systems using
-        Node.js and Python, while also delving into frontend technologies like
-        React, Vue.js, and Next.js to create seamless user experiences.
+        I was once a software developer, and I've since transitioned to a
+        project manager role. This transition has equipped me with a unique
+        perspective that allows me to understand the technical aspects of a
+        project while also focusing on the big picture. My technical background
+        has also enabled me to communicate effectively with developers and
+        stakeholders alike.
       </p>
     </motion.section>
   );

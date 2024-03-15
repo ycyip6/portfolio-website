@@ -1,14 +1,14 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaPython, FaReact, FaVuejs } from "react-icons/fa";
+import {
+  FaAppStore,
+  FaHouseUser,
+  FaPython,
+  FaReact,
+  FaVolleyballBall,
+} from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import etaTrackerV2Img from "@/public/eta-tracker-v2.png";
-import patientLoopImg from "@/public/patient-loop-page.svg";
-import dashBoardImg from "@/public/dashboard.png";
-import scmpImg from "@/public/scmp.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import hitchbondImg from "@/public/hitchbond.png";
+import mmkImg from "@/public/mmk.png";
 
 export const links = [
   {
@@ -35,95 +35,97 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduate Engineer",
+    title: "Account Manager",
+    institution: "Taknology(Canada) Inc",
+    institutionLink: "https://taknology.ca/",
+    description:
+      "Leading marketing strategies, including branding development and SEO optimization, boosting product sales and market impact.",
+    icon: React.createElement(FaHouseUser),
+    date: "Nov 2023 - Current",
+  },
+  {
+    title: "Assoicate Product Manager",
+    institution: "MMK Trading",
+    institutionLink: "https://www.monmonkeygroup.com/",
+    description:
+      "Directed the development of a mobile trading app and internal admin portal, managing the entire project lifecycle.",
+    icon: React.createElement(FaAppStore),
+    date: "Jun 2021 - Jun 2023",
+  },
+  {
+    title: "Web Developer",
+    institution: "Hitchbond",
+    institutionLink: "https://hitchbond.com/",
+    description:
+      "Developed front-end solutions for social enterprise projects, including chat rooms (Twilio), purchasing systems (Stripe), and booking systems.",
+    icon: React.createElement(FaReact),
+    date: "Feb 2020 - Jun 2021",
+  },
+  {
+    title: "Graduate",
     institution: "CUHK",
     institutionLink: "https://www.cuhk.edu.hk/english/index.html",
-    description: "Graduated with a Bachelor degree in Information Engineering.",
+    description:
+      "Graduated with a Bachelor degree in System Engineering and Engineering Management with focus on FinTech & Information System.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020",
   },
   {
-    title: "Software Developer",
-    institution: "Prisec",
-    institutionLink: "https://www.prisec.co",
+    title: "Product Intern",
+    institution: "China Renaissance",
+    institutionLink: "https://www.huaxing.com/",
     description:
-      "Developed an authenticator application on top of the OIDC protocol.",
+      "Contributed to the design and development of a robust Human Resource system architecture, leveraging advanced data analysis techniques and collaborative problem-solving skills.",
     icon: React.createElement(FaPython),
-    date: "2019 - 2020",
+    date: " Aug 2018 - Aug 2019",
   },
   {
-    title: "Full-Stack Developer",
-    institution: "SCMP",
-    institutionLink: "https://www.scmp.com",
+    title: "Global IT Intern | Product Assistant",
+    institution: "Adidas",
+    institutionLink: "https://www.adidas.ca/en",
     description:
-      "Designed and built a customized collaborative online editing system similar to Google Docs.",
-    icon: React.createElement(FaVuejs),
-    date: "2020 - 2022",
-  },
-  {
-    title: "Software Engineer",
-    institution: "LassoMD | Toronto",
-    institutionLink: "https://www.lassomd.com/",
-    description:
-      "Built a comprehensive solution from scratch to elevate dental practice’s patient acquisition and lead management",
-    icon: React.createElement(FaReact),
-    date: "2023",
+      "Developed a VBA-based system for generating Ticket Trend Analysis Reports and provided ongoing support. Assisted in the redesign Ticket Supporting system project and participated in testing efforts.",
+    icon: React.createElement(FaVolleyballBall),
+    date: "Feb - Aug 2018",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "ETA Tracker v2",
+    title: "Hitchbond",
     description:
-      "A simple web app for tracking the ETA of a TTC buses. Bookmarked ETA could be checked instantly without researching the stop number again.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Radix"],
-    imageUrl: etaTrackerV2Img,
-    link: "https://ttc-next-v2.vercel.app/",
+      "A promotion platform focused on social enterprises and NGOs. It helps to connect service providers with potential clients.",
+    tags: ["React", "Typescript", "UI/UX", "Product Engagement", "SEO"],
+    imageUrl: hitchbondImg,
+    link: "https://www.hitchbond.com/",
   },
   {
-    title: "PatientLoop",
+    title: "MMK Trading app",
     description:
-      "A lead & schedule management tools for dental practices. It helps dentists to visualize their leads and appointments, and to track their marketing efforts.",
-    tags: ["Python", "PostgreSQL", "React", "TypeScript", "Next.js", "Docker"],
-    imageUrl: patientLoopImg,
-    link: "https://www.lassomd.com/",
-  },
-  {
-    title: "Compose - Rich Text Editor",
-    description:
-      "A rich text editor built from scratch, it supports various text formatting, image sourcing, and link embedding.",
-    tags: ["Vue", "Node.js", "MongoDB", "TypeScript", "RabbitMQ"],
-    imageUrl: scmpImg,
-    link: "https://www.scmp.com/sport/rugby/hk-sevens/article/3198601/hong-kong-sevens-2022-live-coverage-day-3-quarter-finals-get-under-way",
-  },
-  {
-    title: "Core Web Vitals and SEO Tracker",
-    description:
-      "An internal dashboard for tracking Core Web Vitals and SEO metrics of websites. It helps to monitor the performance of websites.",
+      "A web & mobile app for trading stocks, I was working as product manager during the development.",
     tags: [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "Tailwind",
-      "PostgreSQL",
-      "Prisma",
+      "Prioritization",
+      "RoadMap",
+      "Scrum",
+      "Agile",
+      "Engagement",
+      "PRD",
+      "Stakeholder Engagement",
     ],
-    imageUrl: dashBoardImg,
-    link: "https://cstool.dev.lmdplatform.com/domain",
+    imageUrl: mmkImg,
+    link: "https://www.monmonkeygroup.com/",
   },
 ] as const;
 
 export const skillsData = [
-  "TypeScript",
-  "React",
-  "Vue",
-  "Next.js",
-  "Node.js",
-  "Python",
-  "Tailwind",
-  "MongoDB",
-  "PostgreSQL",
-  "Docker",
-  "GCP",
-  "Vercel",
+  "Time Management",
+  "Product Development",
+  "Team Coordination",
+  "Conflict Resolution",
+  "Roadmap Planning",
+  "Jira",
+  "Software Development",
+  "Task Prioritization",
+  "Cross-Functional Collaboration",
+  "Product Refinement",
 ] as const;
