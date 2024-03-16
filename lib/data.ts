@@ -10,6 +10,14 @@ import { LuGraduationCap } from "react-icons/lu";
 import hitchbondImg from "@/public/hitchbond.png";
 import mmkImg from "@/public/mmk.png";
 
+import csm from "../public/cert_csm.png";
+import cspo from "../public/cert_cspo.png";
+import da from "../public/cert_da.png";
+import ds from "../public/cert_ds.png";
+import pmp from "../public/cert_pmp.png";
+import ux from "../public/cert_ux.png";
+import { Qualifications } from "@/components/qualifications";
+
 export const links = [
   {
     name: "Home",
@@ -18,6 +26,10 @@ export const links = [
   {
     name: "About",
     hash: "#about",
+  },
+  {
+    name: "Qualifications",
+    hash: "#qualifications",
   },
   {
     name: "Projects",
@@ -129,3 +141,6 @@ export const skillsData = [
   "Cross-Functional Collaboration",
   "Product Refinement",
 ] as const;
+
+export const orgainizationCerts = [csm, cspo, pmp];
+export const skillsCerts = [da, ds, ux];
