@@ -35,10 +35,10 @@ export const Qualifications = () => {
   const { ref } = useSectionInView("Qualifications");
 
   return (
-    <div ref={ref} id="qualifications" className="scroll-mt-28">
+    <div ref={ref} id="qualifications" className="scroll-mt-28 sm:mb-40 mb-28 ">
       <SectionHeading>My Qualifications</SectionHeading>
       <motion.section
-        className="relative overflow-x-hidden max-w-[64rem] text-center leading-8 sm:mb-40"
+        className="relative overflow-x-hidden max-w-[64rem] text-center leading-8"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.175 }}
